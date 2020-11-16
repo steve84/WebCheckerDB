@@ -1,5 +1,5 @@
 # coding: utf-8
-from sqlalchemy import Column, Float, ForeignKey, Integer, LargeBinary, Table, Text, text
+from sqlalchemy import Column, Float, ForeignKey, Integer, LargeBinary, Table, Text, text, BLOB
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql.sqltypes import NullType
 from sqlalchemy.ext.declarative import declarative_base
@@ -24,7 +24,7 @@ class Job(Base):
     __tablename__ = 'Jobs'
     __table_args__ = {'sqlite_autoincrement': True}
 
-    _id = Column(Integer, primary_key=True, autoincrement=True)
+    _id = Column(Integer, primary_key=True)
     dir = Column(Integer, server_default=text("NULL"))
     ordinal = Column(Integer, nullable=False)
     name = Column(Text)
@@ -48,7 +48,7 @@ class Job(Base):
     tend = Column(Integer, server_default=text("-1"))
     tdays = Column(Integer, server_default=text("0"))
     lm = Column(Integer, nullable=False)
-    guid = Column(LargeBinary(16), nullable=False)
+    guid = Column(BLOB, nullable=False)
     flags = Column(Integer, nullable=False, server_default=text("0"))
     deleted = Column(Integer, server_default=text("NULL"))
 
@@ -80,7 +80,7 @@ class Macro(Base):
     origin = Column(Text, server_default=text("NULL"))
     css = Column(Text, server_default=text("NULL"))
     target = Column(Text, nullable=False)
-    content = Column(LargeBinary, server_default=text("NULL"))
+    content = Column(BLOB, server_default=text("NULL"))
     flags = Column(Integer, nullable=False, server_default=text("0"))
 
     Job = relationship('Job')
@@ -93,7 +93,7 @@ class Version(Base):
     _id = Column(Integer, primary_key=True)
     jobid = Column(ForeignKey('Jobs._id', ondelete='CASCADE'), nullable=False)
     time = Column(Integer, nullable=False)
-    data = Column(LargeBinary, nullable=False)
+    data = Column(BLOB, nullable=False)
     flags = Column(Integer, nullable=False, server_default=text("0"))
     url = Column(Text, server_default=text("NULL"))
     log = Column(Integer, server_default=text("NULL"))
