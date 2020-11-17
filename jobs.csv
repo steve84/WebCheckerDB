@@ -1,0 +1,32 @@
+name;url;css;frequency
+"Lego.com Sale";"https://www.lego.com/de-ch/categories/sales-and-deals";"#blteb53aaee7208a978 section div div div.Productsstyles__ProductsWrapper-r9qrnh-0.erhzcf ul li:nth-child(1) div div.ProductLeafSharedstyles__Column-sc-1epu2xb-1.eTTqVI div.ProductLeafSharedstyles__DetailsRow-sc-1epu2xb-4.uVRhD a h2 span";60
+"Smyth Toys Sale";"https://www.smythstoys.com/ch/de-ch/spielzeug/angebote/c/angebote-bei-smythstoys?q=:bestsellerRating:productVisible:true:brand:LEGO:productVisible:true:brand:Pokémon:productVisible:true:productVisible:true";"body > main > div > div.st-wrap > div > div.st-layout-item.st-mt.st-2\/3\@m.st-3\/4\@l.productGrid > div > h4";60
+"Brack.ch Spielwaren";"https://www.brack.ch/familie-baby/spielwaren?filter%5BArt%5D%5B%5D=offer&filter%5BArt%5D%5B%5D=trade&sortProducts=Beste%20Ergebnisse";"body > article > div:nth-child(1) > div > nav > div > p";60
+"Galaxus.ch Lego Aktionen";"https://www.galaxus.ch/de/s5/producttype/lego-277?bra=763&sale=1";"#productListingContainer > div > div";60
+"Galaxus.ch Lego Rabatt";"https://www.galaxus.ch/de/s5/producttype/lego-277?so=12&take=75";"#productListingContainer > div > div";60
+"wog.ch Spielwaren";"https://www.wog.ch/index.cfm/bargain-all/type/Toys";"#totalProducts";60
+"wog.ch Games";"https://www.wog.ch/index.cfm/bargain-all/type/Games";"#totalProducts";60
+"cede.ch Spielwaren";"https://www.cede.ch/de/toys/?view=listtile&page_id=79116&branch_sub=0&branch=101&availability_id=1&sort=releasedatedesc&paging_count=100";"#top > div.grid-container.main-content > div > div > div.small-12.large-10.cell > div.grid-x.grid-margin-x.small-up-2.medium-up-4.large-up-5";60
+"cede.ch Games";"https://www.cede.ch/de/games/?view=listtile&page_id=79111&branch_sub=0&branch=4&availability_id=1&sort=releasedatedesc&paging_count=100";"#top > div.grid-container.main-content > div > div > div.small-12.large-10.cell > div.grid-x.grid-margin-x.small-up-2.medium-up-4.large-up-5";60
+"Manor Spielwaren";"https://www.manor.ch/de/produktkollektionen/sale/spielwaren/h/specialprice/toys?q=:top-seller:collection:specialPrice:brand:lego:brand:pokemon:brand:yu-gi-oh:brand:nintendo:brand:mattel&page0&sort=price-desc";"#mm-0 > div.page-wrap > div.product-list > div > div.g-col.g-col-2.left-border > div.o-productlist.js-productlist.bigTileView > div > div.g-layout-productlist.g-row.js-product-list > div";60
+"Globus Outlet";"https://outlet.globus.ch/kinder?mode=613d0c0f-927f-4a7a-b50a-906bb9cbb37a&sort=price-down";"#site > div.mzg-catalogue-category.mzg-catalogue-category_full-width > div > div > div > div.mzg-components-module-product-listing > div > div";60
+"Toyshop24.ch";"https://www.toyshop24.ch/marken.html?product_list_order=price&product_list_dir=desc";"#toolbar-amount > span:nth-child(3)";300
+"Melectronics Lego";"https://www.melectronics.ch/de/s/lego/b/lego?q=:price-desc";"#test-tile-0";60
+"Coop B und H";"https://www.bauundhobby.ch/hobby-sport/spielwaren/bauen-spielsets/lego/c/08250501?sort=discount-desc";"body > div.bg-container.hasBgImage > main > div > div.productlandinglist_ph.Productlist > div.row.product-container > div:nth-child(1) > div";60
+"windeln.ch Lego";"https://www.windeln.ch/search/?rs=true&q=(brand_de:lego)&rs=true&brand=lego&sale=true&sort=default_price+desc";"#mainWrapper > div > div > div:nth-child(7) > div.pager-item.pager-total > span";300
+"velis-spielwaren.ch Lego";"https://www.velis-spielwaren.ch/de/LEGO%C2%AE+Shop/?q=AKT&list=1&first=0";"#artlist";300
+"babywalz.ch Lego";"https://www.baby-walz.ch/de/lego/?categoryId=95149&orderBy=sku_savings_proz:desc";"#container_57551 > div.col-lg-9.col-bg-9.col-md-12.col-xs-12.right > div:nth-child(1) > div > div > span";300
+"spielkist.ch Aktionen";"http://shop.spielkiste.ch/specials.php";"#bodyWrapper > div > div:nth-child(2) > div > div.az_main_content > div.az_site_content > div > div.contentContainer > div > div > div.padding_pages_1 > div.text_result1";300
+"tutti.ch Spielsachen";"https://www.tutti.ch/de/li/ganze-schweiz/angebote/spielzeuge-basteln/gratis?company_ad=false&query_lang=de";"div._3BBWP > div.p78z0m-0:nth-child(1)";60
+"tutti.ch Lego";"https://www.tutti.ch/de/li/ganze-schweiz/angebote?company_ad=false&q=lego&query_lang=de";"div._3BBWP > div.p78z0m-0:nth-child(1)";60
+"anibis Games";"https://www.anibis.ch/de/c/games-spielkonsolen?aidl=15221%2C15222&alng=de";"#root > div > div.sc-16pyix9-0.NBZHa > div > div.qeo5jq-0.iEImsf > div.cahxkj-0.cgy19m-0.iLxoYl > div.cahxkj-0.sc-1645p4v-0.bbnGj.sc-1uh03sv-0.lEPfB > div:nth-child(6) > div:nth-child(1) > article:nth-child(1)";60
+"anibis Spielzeug";"https://www.anibis.ch/de/c/spielzeug-basteln?aidl=15221%2C15222&alng=de";"#root > div > div.sc-16pyix9-0.NBZHa > div > div.qeo5jq-0.iEImsf > div.cahxkj-0.cgy19m-0.iLxoYl > div.cahxkj-0.sc-1645p4v-0.bbnGj.sc-1uh03sv-0.lEPfB > div:nth-child(6) > div:nth-child(1) > article:nth-child(1)";60
+"preispirat.ch";"https://www.preispirat.ch";"div.news-community:nth-child(1)";60
+"daydeal.ch";"https://www.daydeal.ch";"body > div.page.custom-theme > main > section.product.js-product > div.wrapper.js-box-price-mainimage > div > div.product-col-desc.col-xl-5.col-lg-5.d-flex.flex-column.align-self-start.js-product-col-desc";300
+"qoqa.ch Kidz";"https://qids.qoqa.ch/de";"#offer-titles";300
+"qoqa.ch Main";"https://www.qoqa.ch/de";"#offer-titles";300
+"deindeal.ch Lego";"https://www.deindeal.ch/de/kids/channel/category/250258?sortBy=special_price&sortDir=desc";"body > div.off-canvas-wrap > div > div.content > div:nth-child(2) > section > div.row > div.small-12.medium-8.large-9.columns";300
+"ottos.ch Sale";"https://www.ottos.ch/de/sale/sale-spielwaren.html#navigation:attrib[cat_url][]=/de/sale/sale-spielwaren.html&order=price+desc";"#maincontent > div.alocolumns.clearfix > div.column.main.fl-result > div > div > div > div.fl-columns.fl-results-container > div.category-products.clearfix.products.wrapper.grid.products-grid.fl-product-grid";300
+"Interdiscount Lego";"https://www.interdiscount.ch/de/spielwaren-drohnen/lego--c2222?page=0&sort=price-desc";"#TOP_OF_PRODUCTS_OVERVIEW > div:nth-child(2) > div.ulvVbt._1GNlFj > div._3UBePl._3xKNiY._3-Phcp > div.ulvVbt";60
+"conrad.ch Lego";"https://www.conrad.ch/de/search.html?searchType=SearchSuggest&categoryId=c149606&sort=Price-desc&tfo_flags=priceReducedProduct";"#search-app > div.searchView > div.resultsListLayout > div > div > div.tableLayout__wrapper.tableLayout__wrapper--isListView";300
+"spiilegge.ch Lego";"https://www.spiilegge.ch/de/lego-reg-themenwelten?filter=dyn%7e1";"#hauptbereich > section.artikelliste > ul";300

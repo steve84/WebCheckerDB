@@ -1,5 +1,6 @@
 from sqlalchemy import create_engine, func
 from sqlalchemy.orm import sessionmaker
+import csv
 import time
 import uuid
 
@@ -13,37 +14,35 @@ session = Session()
 
 metadata.create_all(engine)
 
-actual_time = int(time.time()*1000)
 
-job = Job(
-    dir=-1,
-    ordinal=1,
-    name='Lego.com Sale',
-    freq_mobile=-1,
-    lastresult=0,
-    knownVersion=None,
-    address='https://www.lego.com/de-ch/categories/sales-and-deals',
-    css='#blteb53aaee7208a978 section div div div.Productsstyles__ProductsWrapper-r9qrnh-0.erhzcf ul li:nth-child(1) div div.ProductLeafSharedstyles__Column-sc-1epu2xb-1.eTTqVI div.ProductLeafSharedstyles__DetailsRow-sc-1epu2xb-4.uVRhD a h2 span',
-    ua='Mozilla/5.0 (Linux; Android 7.1.2; ASUS_Z01QD Build/N2G48H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36',
-    lm=actual_time,
-    guid=bytes.fromhex(uuid.uuid4().hex),
-    flags=24784
-)
+with open('jobs.csv') as csvfile:
+    reader = csv.DictReader(csvfile, delimiter=';')
+    i = 1
+    for row in reader:
+        actual_time = int(time.time()*1000)
 
-session.add(job)
-session.commit()
+        job = Job(
+            dir=-1,
+            ordinal=i,
+            name=row['name'],
+            freq_mobile=-1,
+            freq_wifi=int(row['frequency']),
+            lastresult=0,
+            knownVersion=None,
+            address=row['url'],
+            css=row['css'].replace(' > ', ' '),
+            ua=(
+                'Mozilla/5.0 (Linux; Android 7.1.2; '
+                'ASUS_Z01QD Build/N2G48H; wv) AppleWebKit/537.36'
+                ' (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158'
+                ' Mobile Safari/537.36'
+                ),
+            lm=actual_time,
+            guid=bytes.fromhex(uuid.uuid4().hex),
+            flags=24784
+        )
 
-# version = Version(
-#     jobid=job._id,
-#     time=actual_time,
-#     data=bytes(bytearray.fromhex('31').decode(), 'utf8'),
-#     flags=0
-# )
-
-# session.add(version)
-# session.commit()
-
-# job.knownVersion = version._id
-# session.commit()
+        session.add(job)
+        session.commit()
 
 session.close()
