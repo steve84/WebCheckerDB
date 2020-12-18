@@ -29,6 +29,7 @@ with open('jobs.csv') as csvfile:
             freq_wifi=int(row['frequency']),
             lastresult=0,
             knownVersion=None,
+            minchange=(None if not row['minchange'] else float(row['minchange'])),
             address=row['url'],
             css=row['css'].replace(' > ', ' '),
             ua=(
