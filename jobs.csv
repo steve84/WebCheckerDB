@@ -1,9 +1,12 @@
 name;url;css;frequency;minchange
-"tutti.ch Videogames";"https://www.tutti.ch/de/li/ganze-schweiz/angebote/spielzeuge-basteln/spielkonsolen-games/gratis?company_ad=false&query_lang=de";"div._3BBWP > div.p78z0m-0:nth-child(1)";60;
-"tutti.ch Lego";"https://www.tutti.ch/de/li/ganze-schweiz/angebote/gratis?company_ad=false&q=lego&query_lang=de";"div._3BBWP > div.p78z0m-0:nth-child(1)";60;
 "Brack.ch Spielwaren";"https://www.brack.ch/familie-baby/spielwaren?filter%5BArt%5D%5B%5D=offer&filter%5BArt%5D%5B%5D=trade&sortProducts=Beste%20Ergebnisse";"body > article > div:nth-child(1) > div > nav > div > p";60;
-"Galaxus.ch Lego Aktionen";"https://www.galaxus.ch/de/s5/producttype/lego-277?bra=763&sale=1";"#productListingContainer > div > div";60;
-"preispirat.ch";"https://www.preispirat.ch";"div.news-community:nth-child(1)";60;1
+"Galaxus.ch Lego Rabatt";"https://www.galaxus.ch/de/s5/producttype/lego-277?bra=763&so=12";"#productListingContainer > div:nth-child(5)";60;
+"Galaxus.ch Lego Aktionen";"https://www.galaxus.ch/de/s5/producttype/lego-277?bra=763&sale=1";"#productListingContainer > div > h2";60;
+"microspot.ch Lego";"https://www.microspot.ch/de/spielwaren-drohnen/lego/lego--c821000?hasPromoLabel=true&page=0&sort=price-desc";"#TOP_OF_PRODUCTS_OVERVIEW > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > section > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > span";60;
+"Melectronics Lego";"https://www.melectronics.ch/de/s/lego/b/lego?q=:price-desc";"span[data-testid='search-amount-results']";60;
+"Coop B und H";"https://www.bauundhobby.ch/hobby-sport/spielwaren/bauen-spielsets/lego/c/08250501?sort=discount-desc";"h3.product-tile__title:first-of-type";60;
+"interdiscount.ch Lego";"https://www.interdiscount.ch/de/spielwaren-drohnen/lego/lego--c821000?hasPromoLabel=true&page=0&sort=price-desc";"#TOP_OF_PRODUCTS_OVERVIEW > div:nth-child(3) >  div:nth-child(3) >  div:nth-child(2) > div:nth-child(4) >  div:nth-child(1) >  div:nth-child(1)";60;
+"preispirat.ch";"https://www.preispirat.ch";"div.news-community:nth-child(1)";60;50
 "Lego.com Sale";"https://www.lego.com/de-ch/categories/sales-and-deals";"#blteb53aaee7208a978 section div div div.Productsstyles__ProductsWrapper-r9qrnh-0.erhzcf ul li:nth-child(1) div div.ProductLeafSharedstyles__Column-sc-1epu2xb-1.eTTqVI div.ProductLeafSharedstyles__DetailsRow-sc-1epu2xb-4.uVRhD a h2 span";60;
 "Smyth Toys Sale";"https://www.smythstoys.com/ch/de-ch/spielzeug/angebote/c/angebote-bei-smythstoys?q=:bestsellerRating:productVisible:true:brand:LEGO:productVisible:true:brand:Pokémon:productVisible:true:productVisible:true";"body > main > div > div.st-wrap > div > div.st-layout-item.st-mt.st-2\/3\@m.st-3\/4\@l.productGrid > div > h4";60;
 "Manor Spielwaren";"https://www.manor.ch/de/produktkollektionen/sale/spielwaren/h/specialprice/toys?q=:top-seller:collection:specialPrice:brand:lego:brand:pokemon:brand:yu-gi-oh:brand:nintendo:brand:mattel&page0&sort=price-desc";"#mm-0 > div.page-wrap > div.product-list > div > div.g-col.g-col-2.left-border > div.o-productlist.js-productlist.bigTileView > div > div.g-layout-productlist.g-row.js-product-list > div";60;
@@ -11,9 +14,4 @@ name;url;css;frequency;minchange
 "wog.ch Games";"https://www.wog.ch/index.cfm/bargain-all/type/Games/orderBy/name/maxRows/1000";"#productContainer";60;
 "cede.ch Spielwaren";"https://www.cede.ch/de/toys/?view=listtile&page_id=79116&branch_sub=0&branch=101&availability_id=1&sort=releasedatedesc&paging_count=100";"#top > div.grid-container.main-content > div > div > div.small-12.large-10.cell > div.grid-x.grid-margin-x.small-up-2.medium-up-4.large-up-5";60;
 "cede.ch Games";"https://www.cede.ch/de/games/?view=listtile&page_id=79111&branch_sub=0&branch=4&availability_id=1&sort=releasedatedesc&paging_count=100";"#top > div.grid-container.main-content > div > div > div.small-12.large-10.cell > div.grid-x.grid-margin-x.small-up-2.medium-up-4.large-up-5";60;
-"Melectronics Lego";"https://www.melectronics.ch/de/s/lego/b/lego?q=:price-desc";"#test-tile-0";60;
-"Coop B und H";"https://www.bauundhobby.ch/hobby-sport/spielwaren/bauen-spielsets/lego/c/08250501?sort=discount-desc";"body > div.bg-container.hasBgImage > main > div > div.productlandinglist_ph.Productlist > div.row.product-container > div:nth-child(1) > div";60;
-"anibis Games";"https://www.anibis.ch/de/c/games-spielkonsolen?aidl=15221%2C15222&alng=de";"#root > div > div.sc-16pyix9-0.NBZHa > div > div.qeo5jq-0.iEImsf > div.cahxkj-0.cgy19m-0.iLxoYl > div.cahxkj-0.sc-1645p4v-0.bbnGj.sc-1uh03sv-0.lEPfB > div:nth-child(6) > div:nth-child(1) > article:nth-child(1)";60;
-"anibis Spielzeug";"https://www.anibis.ch/de/c/spielzeug-basteln?aidl=15221%2C15222&alng=de";"#root > div > div.sc-16pyix9-0.NBZHa > div > div.qeo5jq-0.iEImsf > div.cahxkj-0.cgy19m-0.iLxoYl > div.cahxkj-0.sc-1645p4v-0.bbnGj.sc-1uh03sv-0.lEPfB > div:nth-child(6) > div:nth-child(1) > article:nth-child(1)";60;
-"melectronics Sale";"https://www.melectronics.ch/de/cp/ausverkauf";"div.row.row--cms-grid";60;
 "Toyshop24.ch";"https://www.toyshop24.ch/marken.html?product_list_order=price&product_list_dir=desc";"#toolbar-amount > span:nth-child(3)";300;
