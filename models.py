@@ -51,6 +51,13 @@ class Job(Base):
     guid = Column(BLOB, nullable=False)
     flags = Column(Integer, nullable=False, server_default=text("0"))
     deleted = Column(Integer, server_default=text("NULL"))
+    extra = Column(Text, server_default=text("NULL"))
+    let = Column(Integer)
+    lmet = Column(Integer)
+    lst = Column(Integer)
+    lvt = Column(Integer)
+    timeCreated = Column(Integer, server_default=text("NULL"))
+
 
     Version = relationship('Version', primaryjoin='Job.knownVersion == Version._id')
 
